@@ -1,0 +1,30 @@
+{
+  "name": "static-pt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/_style.css -o ./src/style.css && npx pug-cli -o docs -w src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickweaver/static-pt.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patrickweaver/static-pt/issues"
+  },
+  "homepage": "https://github.com/patrickweaver/static-pt#readme",
+  "dependencies": {
+    "pug": "^3.0.2",
+    "pug-cli2": "^1.0.0-alpha6.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.7"
+  }
+}
